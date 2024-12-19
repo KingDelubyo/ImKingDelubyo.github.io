@@ -1,0 +1,73 @@
+body{
+    background-color:#EEF5FF;
+}
+
+.festive-regular{
+    font-family: "Festive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 150px;
+}
+
+.top-container{
+    background-color: #B4D4FF;
+    color: #2D9596;
+}
+
+.left-waves{
+    position: absolute;
+    left:0px;
+    top: 460px;
+}
+
+.right-waves{
+    position: absolute;
+    right:0px;
+    top: 460px;
+    transform: rotateY(180deg);
+}
+
+.profile-photo{
+    height: 200px;
+    border-radius: 50%;
+}
+
+.second-container{
+    background-color: #EEF5FF;
+}
+
+.blue-text{
+    color:#2D9596;
+    
+}
+
+.skills-image{
+    border-radius: 20%;
+}
+
+.profile-font{
+    font-size: 60px;
+}
+
+.btn-green{
+    background-color:#2D9596;
+    color: #EEF5FF;
+}
+
+.footer{
+    background-color:#B4D4FF;
+}
+
+&:hover{
+    background-color: #4e2d96;
+    
+}
+
+
+.btn-green:hover,
+.btn-green:focus {
+    background-color: #1c5556!important;
+    border-color: #35cacd!important;
+    box-shadow: none;
+    outline: none;
+}
